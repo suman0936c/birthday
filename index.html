@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-card">
+            <div class="card-front">
+                <div class="sparkles">
+                    <i class="fas fa-sparkles"></i>
+                    <i class="fas fa-sparkles"></i>
+                    <i class="fas fa-sparkles"></i>
+                </div>
+                <div class="balloons">
+                    <div class="balloon"></div>
+                    <div class="balloon"></div>
+                    <div class="balloon"></div>
+                </div>
+                <div class="memory-frame">
+                    <img src="https://source.unsplash.com/random/150x150/?happy,smile" alt="Special Memory" class="demo-photo">
+                </div>
+                <h1>Happy Birthday!</h1>
+                <p class="recipient">Dear <span id="recipient-name">Friend</span></p>
+                <div class="cake">
+                    <div class="plate"></div>
+                    <div class="layer"></div>
+                    <div class="icing"></div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="stick"></div>
+                    </div>
+                </div>
+                <button id="open-card" class="btn">Click to Open</button>
+            </div>
+            <div class="card-inside">
+                <div class="message">
+                    <h2>Wishing you a wonderful day!</h2>
+                    <div class="memory-wall">
+                        <div class="memory-item">
+                            <img src="https://source.unsplash.com/random/100x100/?friends" alt="Memory 1">
+                            <p class="memory-text">Our special moments together</p>
+                        </div>
+                        <div class="memory-item">
+                            <img src="https://source.unsplash.com/random/100x100/?celebration" alt="Memory 2">
+                            <p class="memory-text">Every celebration with you</p>
+                        </div>
+                        <div class="memory-item">
+                            <img src="https://source.unsplash.com/random/100x100/?love" alt="Memory 3">
+                            <p class="memory-text">Making memories forever</p>
+                        </div>
+                    </div>
+                    <p class="personal-message">To someone who makes the world brighter just by being in it. Your presence brings joy to everyone around you, and today is all about celebrating the amazing person you are!</p>
+                    <div class="video-section">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&controls=0&mute=1" 
+                                    title="Birthday Celebration" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                            <div class="video-overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interactive-section">
+                        <button id="make-wish" class="btn">Make a Wish</button>
+                        <div id="wish-message" class="hidden"></div>
+                    </div>
+                    <div class="special-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"You are the reason I believe in magic and miracles."</p>
+                    </div>
+                    <div class="decorative-border">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
